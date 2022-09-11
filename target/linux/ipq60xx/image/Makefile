@@ -113,6 +113,7 @@ define Device/xiaomi_redmi-ax5-jdcloud
 	SOC := ipq6018
 	BLOCKSIZE := 64k
 	KERNEL_SIZE := 6144k
+	DEVICE_DTS := qcom-ipq6018-redmi-ax5-jdcloud
 	DEVICE_TITLE := Xiaomi Redmi Router AX5 JDCloud
 	DEVICE_DTS_CONFIG := config@cp03-c1
 	IMAGES += factory.bin
